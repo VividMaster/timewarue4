@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TimeWar.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{6265B664-267F-4815-8B96-74261CF487FB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TimeWar.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TimeWarEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{48B49D8C-B664-46E0-A818-0D0401CD3833}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\TimeWar">
+			<UniqueIdentifier>{1ABA5F76-79EF-46EF-AC65-17C2C5E7827F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TimeWar\TimeWar.Build.cs">
+			<Filter>Source\TimeWar</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TimeWar\TimeWar.cpp">
+			<Filter>Source\TimeWar</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TimeWar\TimeWar.h">
+			<Filter>Source\TimeWar</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TimeWar\TimeWarGameModeBase.cpp">
+			<Filter>Source\TimeWar</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TimeWar\TimeWarGameModeBase.h">
+			<Filter>Source\TimeWar</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
